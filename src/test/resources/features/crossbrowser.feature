@@ -12,6 +12,7 @@ Feature: Calculator test
     And user selects tree type "<type>"
     And user clicks submit button
     Then user verifies that the result is visible and correct
+    And user quits remote driver
 
     Examples:
       |number|name|hour|minute|type|
@@ -30,6 +31,7 @@ Feature: Calculator test
     And user selects tree type "<type>"
     And user clicks submit button
     Then user verifies that the result is visible and correct
+    And user quits remote driver
 
     Examples:
       |number|name|hour|minute|type|

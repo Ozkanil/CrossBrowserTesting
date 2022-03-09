@@ -37,6 +37,7 @@ public class CalculatorStepDefs {
     @Then("user enters the number of seeds planted {string}")
     public void user_enters_the_number_of_seeds_planted(String seedNumber) {
 
+        //int number= Math.random();
         number=seedNumber;
         calculatorPage.seedsNumberBox.sendKeys(number);
 
